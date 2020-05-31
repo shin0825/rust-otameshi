@@ -1,0 +1,17 @@
+[package]
+name = "graphql-sample"
+version = "0.1.0"
+authors = ["内緒だよ"]
+edition = "2018"
+
+
+[dependencies]
+# 以下追記
+actix-web = "2"
+actix-rt = "1"
+juniper = "0.14"
+dotenv = "*"
+env_logger = "*"
+log = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
